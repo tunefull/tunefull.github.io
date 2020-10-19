@@ -27,4 +27,8 @@
 >  * Communication before conflicts happen
 >  * Communication between the two parties, with the third member as mediator if necessary
 >  * For conflicts that remain unresolved, contacting DeepDive staff (Nick, Todd, Rishita, Sue)
+
+* Branches/merging
+> * Feature branches (with lots of communication between members working on the same feature)
+> * Merging: always communicate before merging to master (or to a shared feature branch) and make sure to pull before pushing.
   
