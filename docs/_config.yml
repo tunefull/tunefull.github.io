@@ -12,3 +12,5 @@ description: "The musical social network"
 author:
   name: "The TuneFull Team from Deep Dive Coding"
   
+
+theme: jekyll-theme-tactile
