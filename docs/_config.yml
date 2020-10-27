@@ -1,0 +1,14 @@
+repository_links:
+  enabled: false
+page_navigator:
+  enabled: false
+titles_from_headings:
+  enabled: false
+
+# Modify the contents below for the specific project.
+
+title: "TuneFull"
+description: "The musical social network"
+author:
+  name: "The TuneFull Team from Deep Dive Coding"
+  
