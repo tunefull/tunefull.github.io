@@ -1,10 +1,10 @@
 ## Summary
 
-TuneFull is a social network designed for fun, discovery, and positivity. Users of this app can share a 20 to 30-second clip of music that matches their mood, and can see and listen to a feed of clips their friends have shared. Additionally, users can listen to clips posted by people outside their friend circle to discover new music or to follow people who have similar musical tastes.
+The TuneFull music network bundles together fun and discovery to provide its users with a positive and friendly music sharing experience. Tune in to share 20-30 second clips of music that match your mood, and see what music clips your friends are sharing. You can also listen to clips posted by people outside your friend circle to discover new music, or follow those with similar taste.
 
 **Client Functionality**
 
-Once the user is logged in, they are able to do a variety of actions. They can add or delete friends and follows, post a 20 to 30-second clip of music to their profile, and see a feed of their friends’ recent clips. They can click on clips to listen and to see information about the artist, song, and album. The user can also discover new music by browsing clips from non-friends. If they like the clip, they can get information about the song and/or follow the person who posted it. Users who are not logged in can access this feature to some extent, but are not able to follow or friend other users. The user can also change settings, such as color themes.
+Once logged in users are able to perform a variety of actions such as adding or deleting friends and follows. Users have access to a feed of recent clips posted by those on the network. They too can post 20 to 30 second sound bytes of music which are added to their profile. Just click on a clip to listen and discover information about the artist, song and album. Users who are not logged in can access this feature to some extent, but are not able to follow or friend other users. The app also includes settings such as color themes.
     	
 **Server Functionality**
 
