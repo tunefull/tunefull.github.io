@@ -40,5 +40,5 @@ The server will host the database, and will provide data to the client when requ
 
     * Access to Spotify API or some other music API is necessary for the functioning of this app.
 
-## [(Entity relationship diagram)](erd.md)
+## [Entity relationship diagram](erd.md)
 
