@@ -4,7 +4,7 @@ TuneFull is a social network designed for fun, discovery, and positivity. Users 
 
 **Client Functionality**
 
-Once the user is logged in, they are able to do a variety of actions. They can add or delete friends and follows, post a 20 to 30-second clip of music to their profile, and see a feed of their friends’ recent clips. They can click to listen, and clips also include information about the artist, song, and album. The user can also discover new music by browsing clips from non-friends. If they like the clip, they can get information about the song and/or follow the person who posted it. Users who are not logged in can access this feature to some extent, but are not able to follow or friend other users. The user can also change settings, such as color themes.
+Once the user is logged in, they are able to do a variety of actions. They can add or delete friends and follows, post a 20 to 30-second clip of music to their profile, and see a feed of their friends’ recent clips. They can click on clips to listen and to see information about the artist, song, and album. The user can also discover new music by browsing clips from non-friends. If they like the clip, they can get information about the song and/or follow the person who posted it. Users who are not logged in can access this feature to some extent, but are not able to follow or friend other users. The user can also change settings, such as color themes.
     	
 **Server Functionality**
 
@@ -30,13 +30,13 @@ The server will host the database, and will provide data to the client when requ
 
 * Google Sign-in [(Documentation)](https://developers.google.com/identity/sign-in/android/start-integrating)
 
-    * Sign-in lets the user create and log into their account. The client app will authenticate with Google and pass the authentication token to the server. The server will also need access to Google Sign-In. This will help with user authentication and creating accounts. The server will take the token passed by the client, and will authenticate it with Google. 
+    * Sign-in lets the user create and log into their account. The client app will authenticate with Google and pass the authentication token to the server. The server will also need access to Google Sign-In: it will take the token passed by the client, and will authenticate it with Google. 
                                                                                                                                                                                                                     
     * Sign-in is required for full usage of the app. The discovery feature can be used without sign-in, but these users will not be able to follow accounts. 
     
 * Spotify API [(Android SDK)](https://developer.spotify.com/documentation/android/) [(Web API)](https://developer.spotify.com/documentation/web-api/reference-beta/)
 
-    * Spotify API allows for clips to be played through the app, and allows for clips to link to the full song on Spotify. The server will also need access to Spotify. 
+    * Spotify API allows for clips to be played through the app, and allows for clips to link to the full song on Spotify. The server will likely also need access to Spotify. 
 
     * Access to Spotify API or some other music API is necessary for the functioning of this app.
 
