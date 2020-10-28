@@ -13,3 +13,5 @@ author:
   name: "The TuneFull Team from Deep Dive Coding"
   
 remote_theme: chrisbobbe/jekyll-theme-prologue
+
+collections: [sections]
