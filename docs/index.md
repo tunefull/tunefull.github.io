@@ -20,13 +20,13 @@ The TuneFull music network bundles together fun and discovery to provide its use
 
 * Device audio, accessed through MediaPlayer [(Overview)](https://developer.android.com/guide/topics/media/mediaplayer) [(Documentation)](https://developer.android.com/reference/android/media/MediaPlayer)
 
-    * Audio is used to play the music clips.
+    * Audio is used to play the music clips on the client side of the app.
 
     * Audio is critical to the functionality of the app.
 
 * Google Sign-in [(Documentation)](https://developers.google.com/identity/sign-in/android/start-integrating)
 
-    * Sign-in lets the user create and log into their account. The client app will authenticate with Google and pass the authentication token to the server. The server will also need access to Google Sign-In: it will take the token passed by the client and will authenticate with Google. 
+    * Sign-in lets the user create and log into their account. The client app will authenticate with Google and pass the authentication token to the server. 
                                                                                                                                                                                                                     
     * Sign-in is required for full usage of the app. The discovery feature can be used without sign-in, but these users will not be able to follow accounts, or post music. 
     
