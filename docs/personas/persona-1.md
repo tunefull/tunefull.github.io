@@ -42,7 +42,7 @@ I like to keep up with my friends on social media, but recently have become so b
 
 **Usage Preconditions:** Has a compatible device and has downloaded TuneFull. Must have internet connection and set up an account prior to connect with friends
 
-**Usage post conditions:** After listening to add-free music shared by her friends she once again sees the glass as "half-full"
+**Usage post conditions:** After listening to ad-free music shared by her friends she once again sees the glass as "half-full"
 
 **Interaction Flow:**
 

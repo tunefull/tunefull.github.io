@@ -10,7 +10,7 @@ The TuneFull music network bundles together fun and discovery to provide its use
 
 * People who like social media, except for its negativity.
 
-    > [Bethany Ford](personas/persona.md)
+    > [Bethany Ford](personas/persona-1.md)
     
 * People who want to quickly discover new music.
 	
