@@ -4,7 +4,7 @@ The TuneFull music network bundles together fun and discovery to provide its use
 
 **Client Functionality**
 
-Once logged in users are able to perform a variety of actions such as adding or deleting friends and follows. Users have access to a feed of recent clips posted by those on the network. They too can post 20 to 30 second sound bytes of music which are added to their profile. Just click on a clip to listen and discover information about the artist, song and album. Users who are not logged in can access this feature to some extent, but are not able to follow or friend other users. The app also includes settings such as color themes.
+Once logged in, users are able to perform a variety of actions such as adding or deleting friends and follows. Users have access to a feed of recent clips posted by those on the network. Additionally, they can post 20 to 30 second sound bites of music which are added to their profile. Just click on a clip to listen and discover information about the artist, song and album. Users who are not logged in can access this feature to some extent, but are not able to follow or friend other users. The app also includes settings such as color themes.
     	
 **Server Functionality**
 
@@ -30,7 +30,7 @@ The server will host the database, and will provide data to the client when requ
 
 * Google Sign-in [(Documentation)](https://developers.google.com/identity/sign-in/android/start-integrating)
 
-    * Sign-in lets the user create and log into their account. The client app will authenticate with Google and pass the authentication token to the server. The server will also need access to Google Sign-In: it will take the token passed by the client, and will authenticate it with Google. 
+    * Sign-in lets the user create and log into their account. The client app will authenticate with Google and pass the authentication token to the server. The server will also need access to Google Sign-In: it will take the token passed by the client and will authenticate it with Google. 
                                                                                                                                                                                                                     
     * Sign-in is required for full usage of the app. The discovery feature can be used without sign-in, but these users will not be able to follow accounts. 
     
