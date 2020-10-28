@@ -1,6 +1,4 @@
-# User Persona
-
-## User Persona:
+## User Persona
 
 ![Beth](../img/woman-persona.jpg)
 
@@ -34,7 +32,7 @@
 
 I like to keep up with my friends on social media, but recently have become so burnt out with all of the negativity. I need a social network that is positive so I can connect with friends without extra stress, and TuneFull lets me do that.
 
-## Use Case
+## Use Case:
 
 **Title:** Slow day at work
 

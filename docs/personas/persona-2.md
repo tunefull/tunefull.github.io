@@ -1,6 +1,4 @@
-# User Persona
-
-## User Persona:
+## User Persona
 
 ![Jackson](../img/man-persona.jpg)
 
@@ -34,7 +32,7 @@
 
 As a music lover, I live to discover new music--but I’m a busy person, and don’t have time to listen to whole songs. TuneFull allows me to listen to short clips of music, so I can find more new music in less time.
 
-## Use Case
+## Use Case:
 
 **Title:** Mid-afternoon coffee break
 
