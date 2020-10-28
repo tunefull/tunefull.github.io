@@ -9,7 +9,7 @@ titles_from_headings:
 
 title: "TuneFull"
 description: "Musical Social Network"
-author:
-  name: "The TuneFull Team from Deep Dive Coding"
+author: "The TuneFull Team from Deep Dive Coding"
+  name:
   
 theme: jekyll-theme-dinky
