@@ -42,3 +42,5 @@ The server will host the database, and will provide data to the client when requ
 
 ## [Entity relationship diagram](erd.md)
 
+## [Data Model Implementation](data-model-implementation.md)
+
