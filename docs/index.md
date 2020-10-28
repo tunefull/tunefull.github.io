@@ -16,7 +16,7 @@ The server will host the database, and will provide data to the client when requ
 
     > I like to keep up with my friends on social media, but recently have become so burnt out with all of the negativity. I need a social network that is positive so I can connect with friends without extra stress, and TuneFull lets me do that.
     
-* People who want to quickly discover new music
+* People who want to quickly discover new music.
 	
 	> As a music lover, I enjoy discovering new music-—but I’m a busy person, and don’t have time to listen to whole songs. TuneFull allows me to listen to short clips of music, so I can find more new music in less time.
 
@@ -40,5 +40,5 @@ The server will host the database, and will provide data to the client when requ
 
     * Access to Spotify API or some other music API is necessary for the functioning of this app.
 
-		
+## [(Entity relationship diagram)](erd.md)
 
