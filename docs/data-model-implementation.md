@@ -10,4 +10,4 @@
 
 
 
-> [Return to previous page](../index.md#data model implementation)
+> [Return to previous page](index.md#data)
