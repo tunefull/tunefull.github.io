@@ -60,7 +60,7 @@ I like to keep up with my friends on social media, but recently have become so b
 
 **Frequency of Use:** Every day.
 
-> [Return to previous page](../index.md)
+> [Return to previous page](../index.md#intended-users-and-user-personas)
 
 
 
