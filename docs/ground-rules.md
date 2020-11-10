@@ -15,6 +15,7 @@
 * Core practices for coordination
 >  * Meeting twice a week via Zoom
 >    * T/Th after class, with flexibility
+>    * F 5:30 and Sun. 7:30
 >  * Text-based communication through Slack, texting, email
 >  * Scrum standups at the beginning of each meeting
 >    * Decide on/review development goals and possible implementations directly after scrums
