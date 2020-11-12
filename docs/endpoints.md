@@ -254,7 +254,7 @@ Gets the relationships in which the `User` is a friend
 
 * Description
 
-Gets the relationships in which the `User` is following the other `User`
+Gets the relationships in which the `User` is following another `User`
 
 * Path parameters
 
@@ -275,3 +275,30 @@ Gets the relationships in which the `User` is following the other `User`
 * Response status
 
 `200 OK`
+
+### GET /user/unaccepted
+
+* Description
+
+Gets the relationships in which the `User` has received a friend request and hasn't responded yet
+
+* Path parameters
+
+(None)
+
+* Query parameters
+
+(None)
+
+* Request body
+
+(None)
+
+* Response body
+
+`Relationship[]`
+
+* Response status
+
+`200 OK`
+
