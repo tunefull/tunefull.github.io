@@ -42,7 +42,7 @@ Returns the current `User` (profile)
 
 `200 OK`
 
-###  GET /users
+###  `GET /users`
 
 * Description
 
@@ -72,7 +72,7 @@ Returns all `User` profiles
 
 `200 OK`
 
-### GET /users/me/clips
+### `GET /users/me/clips`
 
 * Description
 
@@ -86,7 +86,7 @@ Returns all `Clips` associated with the current `User`.
 
     * `number` (number of clips to return)
         
-        * Any positive integer (default is 20)
+        * Any positive integer (default is 10)
 
     * `index` (allows for getting less recent clips)
         
@@ -106,11 +106,11 @@ Returns all `Clips` associated with the current `User`.
 
 `200 OK`
 
-###  GET /users/clips
+###  `GET /users/clips`
 
 * Description
 
-Gets all `Clips` for all `Users`.
+Gets all `Clips` for all `Users` for use in Discovery.
 
 * Path parameters
 
@@ -120,7 +120,7 @@ Gets all `Clips` for all `Users`.
 
     * `number` (number of clips to return)
         
-        * Any positive integer (default is 100)
+        * Any positive integer (default is 24)
     
     * `index` (allows for getting less recent clips)
         
@@ -140,7 +140,43 @@ Gets all `Clips` for all `Users`.
 
 `200 OK`
 
-### POST /clips
+
+###  `GET /users/me/friends-follows/clips`
+
+* Description
+
+Gets all `Clips` for all `Users` the current `User` has a relationship with (either friends or follows).
+
+* Path parameters
+
+(None)
+
+* Query parameters
+
+    * `number` (number of clips to return)
+        
+        * Any positive integer (default is 24)
+    
+    * `index` (allows for getting less recent clips)
+        
+        * Any positive integer (default is 0)
+                
+    * If `number` and `index` form an invalid combination, default values are used
+
+* Request body
+
+(None)
+
+* Response body
+
+`Clip[]`
+
+* Response status
+
+`200 OK`
+
+
+### `POST /clips`
 
 * Description
 
@@ -168,7 +204,8 @@ Creates a new clip
     
     * `400 Bad Request` (one or more invalid `Clip` properties--or an invalid combination of properties--in request)
 
-### PUT /users/me/genre
+
+### `PUT /users/me/genre`
 
 * Description
 
@@ -196,7 +233,8 @@ Replaces the favorite genre of the current `User`.
     
     * `400 Bad Request` (empty request body or invalid genre)
 
-### POST /user/relationship
+
+### `POST /users/relationship`
 
 * Description
 
@@ -223,8 +261,38 @@ Creates a relationship between two `Users`.
     * `201 Created`
     
     * `400 Bad Request` (one or more invalid properties--or an invalid combination of properties--in request)
+   
+   
+### `PUT /users/relationship`
+
+* Description
+
+Updates a relationship between two `Users` (i.e. a friend request has been accepted).
+
+* Path parameters
+
+(None)
+
+* Query parameters
+
+(None)
+
+* Request body
+
+`Relationship`
+
+* Response body
+
+`Relationship`
+
+* Response status
+
+    * `200 OK`
     
-### GET /user/friendships
+    * `400 Bad Request` (one or more invalid properties--or an invalid combination of properties--in request)
+    
+    
+### `GET /users/me/friendships`
 
 * Description
 
@@ -250,7 +318,8 @@ Gets the relationships in which the `User` is a friend
 
 `200 OK`
   
-### GET /user/follows
+  
+### `GET /users/me/follows`
 
 * Description
 
@@ -276,7 +345,8 @@ Gets the relationships in which the `User` is following another `User`
 
 `200 OK`
 
-### GET /user/unaccepted
+
+### `GET /users/me/unaccepted`
 
 * Description
 
@@ -301,4 +371,3 @@ Gets the relationships in which the `User` has received a friend request and has
 * Response status
 
 `200 OK`
-
