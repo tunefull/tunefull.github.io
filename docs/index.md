@@ -6,6 +6,14 @@ The TuneFull music network bundles together fun and discovery to provide its use
 
 [Server Functionality](server-functionality.md)
 
+## Team Roster
+
+ * Laura Steiner
+ 
+ * Robert Dominguez
+ 
+ * Rod Frechette
+ 
 ## Intended users and user personas
 
 * People who like social media, except for its negativity.
