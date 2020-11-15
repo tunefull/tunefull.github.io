@@ -100,6 +100,34 @@ Returns all `User` profiles
 
 `200 OK`
 
+### `PUT /users/me/genre`
+
+* Description
+
+Replaces the favorite genre of the current `User`.
+
+* Path parameters
+
+(None)
+
+* Query parameters
+
+(None)
+
+* Request body
+
+`Genre` enum (`Content-type: text/plain`)
+
+* Response body
+
+`Genre` enum (`Content-type: text/plain`)
+
+* Response status
+
+    * `200 OK`
+    
+    * `400 Bad Request` (empty request body or invalid genre)
+
 ### `GET /clips/me`
 
 * Description
@@ -230,7 +258,6 @@ Gets all `Clips` for all `Users` the current `User` has a relationship with (eit
 
 `200 OK`
 
-
 ### `POST /clips`
 
 * Description
@@ -258,13 +285,12 @@ Creates a new clip
     * `201 Created`
     
     * `400 Bad Request` (one or more invalid `Clip` properties--or an invalid combination of properties--in request)
-
-
-### `PUT /users/me/genre`
+    
+### `GET /relationships/friendships`
 
 * Description
 
-Replaces the favorite genre of the current `User`.
+Gets the relationships in which the `User` is a friend
 
 * Path parameters
 
@@ -276,18 +302,67 @@ Replaces the favorite genre of the current `User`.
 
 * Request body
 
-`Genre` enum (`Content-type: text/plain`)
+(None)
 
 * Response body
 
-`Genre` enum (`Content-type: text/plain`)
+`Relationship[]`
 
 * Response status
 
-    * `200 OK`
-    
-    * `400 Bad Request` (empty request body or invalid genre)
+`200 OK`
+  
+### `GET relationships/follows`
 
+* Description
+
+Gets the relationships in which the `User` is following another `User`
+
+* Path parameters
+
+(None)
+
+* Query parameters
+
+(None)
+
+* Request body
+
+(None)
+
+* Response body
+
+`Relationship[]`
+
+* Response status
+
+`200 OK`
+
+### `GET relationships/unaccepted`
+
+* Description
+
+Gets the relationships in which the `User` has received a friend request and hasn't responded yet
+
+* Path parameters
+
+(None)
+
+* Query parameters
+
+(None)
+
+* Request body
+
+(None)
+
+* Response body
+
+`Relationship[]`
+
+* Response status
+
+`200 OK`
 
 ### `POST /relationships`
 
@@ -315,8 +390,7 @@ Creates a relationship between two `Users`.
 
     * `201 Created`
     
-    * `400 Bad Request` (one or more invalid properties--or an invalid combination of properties--in request)
-   
+    * `400 Bad Request` (one or more invalid properties--or an invalid combination of properties--in request)   
    
 ### `PUT /relationships`
 
@@ -345,84 +419,3 @@ Updates a relationship between two `Users` (i.e. a friend request has been accep
     * `200 OK`
     
     * `400 Bad Request` (one or more invalid properties--or an invalid combination of properties--in request)
-    
-    
-### `GET /relationships/friendships`
-
-* Description
-
-Gets the relationships in which the `User` is a friend
-
-* Path parameters
-
-(None)
-
-* Query parameters
-
-(None)
-
-* Request body
-
-(None)
-
-* Response body
-
-`Relationship[]`
-
-* Response status
-
-`200 OK`
-  
-  
-### `GET relationships/follows`
-
-* Description
-
-Gets the relationships in which the `User` is following another `User`
-
-* Path parameters
-
-(None)
-
-* Query parameters
-
-(None)
-
-* Request body
-
-(None)
-
-* Response body
-
-`Relationship[]`
-
-* Response status
-
-`200 OK`
-
-
-### `GET relationships/unaccepted`
-
-* Description
-
-Gets the relationships in which the `User` has received a friend request and hasn't responded yet
-
-* Path parameters
-
-(None)
-
-* Query parameters
-
-(None)
-
-* Request body
-
-(None)
-
-* Response body
-
-`Relationship[]`
-
-* Response status
-
-`200 OK`
