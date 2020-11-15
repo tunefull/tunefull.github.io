@@ -66,8 +66,9 @@ Returns the profile of a selected `User`
 
 * Response status
 
-`200 OK`
-`404 Not Found`
+   * `200 OK`
+
+   * `404 Not Found`
 
 ###  `GET /users`
 
@@ -167,6 +168,33 @@ Gets all `Clips` for all `Users` for use in Discovery.
 
 `200 OK`
 
+###  `GET /clips/{clipId}`
+
+* Description
+
+Gets a selected `Clip`.
+
+* Path parameters
+
+`clipId` (clip identifier)
+
+* Query parameters
+
+(None)
+
+* Request body
+
+(None)
+
+* Response body
+
+`Clip`
+
+* Response status
+
+   * `200 OK`
+
+   * `404 Not Found`
 
 ###  `GET /clips/friends-follows`
 
