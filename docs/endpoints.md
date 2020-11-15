@@ -42,7 +42,6 @@ Returns the current `User` (profile)
 
 `200 OK`
 
-
 ### `GET /users/{userId}`
 
 * Description
@@ -100,7 +99,7 @@ Returns all `User` profiles
 
 `200 OK`
 
-### `GET /users/me/clips`
+### `GET /clips/me`
 
 * Description
 
@@ -134,7 +133,7 @@ Returns all `Clips` associated with the current `User`.
 
 `200 OK`
 
-###  `GET /users/clips`
+###  `GET /clips`
 
 * Description
 
@@ -169,7 +168,7 @@ Gets all `Clips` for all `Users` for use in Discovery.
 `200 OK`
 
 
-###  `GET /users/me/friends-follows/clips`
+###  `GET /clips/friends-follows`
 
 * Description
 
@@ -262,7 +261,7 @@ Replaces the favorite genre of the current `User`.
     * `400 Bad Request` (empty request body or invalid genre)
 
 
-### `POST /users/relationship`
+### `POST /relationships`
 
 * Description
 
@@ -291,7 +290,7 @@ Creates a relationship between two `Users`.
     * `400 Bad Request` (one or more invalid properties--or an invalid combination of properties--in request)
    
    
-### `PUT /users/relationship`
+### `PUT /relationships`
 
 * Description
 
@@ -320,7 +319,7 @@ Updates a relationship between two `Users` (i.e. a friend request has been accep
     * `400 Bad Request` (one or more invalid properties--or an invalid combination of properties--in request)
     
     
-### `GET /users/me/friendships`
+### `GET /relationships/friendships`
 
 * Description
 
@@ -347,7 +346,7 @@ Gets the relationships in which the `User` is a friend
 `200 OK`
   
   
-### `GET /users/me/follows`
+### `GET relationships/follows`
 
 * Description
 
@@ -374,7 +373,7 @@ Gets the relationships in which the `User` is following another `User`
 `200 OK`
 
 
-### `GET /users/me/unaccepted`
+### `GET relationships/unaccepted`
 
 * Description
 
