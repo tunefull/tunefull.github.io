@@ -42,6 +42,34 @@ Returns the current `User` (profile)
 
 `200 OK`
 
+
+### `GET /users/{userId}`
+
+* Description
+
+Returns the profile of a selected `User`
+
+* Path parameters
+
+`userId` (user identifier)
+
+* Query parameters
+
+(None)
+
+* Request body
+
+(None)
+
+* Response body
+
+`User`
+
+* Response status
+
+`200 OK`
+`404 Not Found`
+
 ###  `GET /users`
 
 * Description
