@@ -128,6 +128,34 @@ Replaces the favorite genre of the current `User`.
     
     * `400 Bad Request` (empty request body or invalid genre)
 
+### `DELETE /users/me`
+
+* Description
+
+Deletes the current user's records.
+
+* Path parameters
+
+(None)
+
+* Query parameters
+
+(None)
+
+* Request body
+
+`User`
+
+* Response body
+
+(None)
+
+* Response status
+
+    * `200 OK`
+    
+    * `400 Bad Request` (empty request body or invalid genre)
+
 ### `GET /clips`
 
 * Description
