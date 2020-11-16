@@ -128,61 +128,31 @@ Replaces the favorite genre of the current `User`.
     
     * `400 Bad Request` (empty request body or invalid genre)
 
-### `GET /clips/me`
+### `GET /clips`
 
 * Description
 
-Returns all `Clips` associated with the current `User`.
+Returns all `Clips`, controlled by parameters.
 
 * Path parameters
 
 (None)
 
-* Query parameters
+* Query parameters 
 
-    * `number` (number of clips to return)
+    * `limit` (number of clips to return)
         
         * Any positive integer (default is 10)
 
-    * `index` (allows for getting less recent clips)
+    * `offset` (allows for getting less recent clips)
         
         * Any positive integer (default is 0)
         
-    * If `number` and `index` form an invalid combination, default values are used
-
-* Request body
-
-(None)
-
-* Response body
-
-`Clip[]`
-
-* Response status
-
-`200 OK`
-
-###  `GET /clips`
-
-* Description
-
-Gets all `Clips` for all `Users` for use in Discovery.
-
-* Path parameters
-
-(None)
-
-* Query parameters
-
-    * `number` (number of clips to return)
-        
-        * Any positive integer (default is 24)
+    * If `limit` and `offset` form an invalid combination, default values are used
     
-    * `index` (allows for getting less recent clips)
-        
-        * Any positive integer (default is 0)
-                
-    * If `number` and `index` form an invalid combination, default values are used
+    * `source` 
+    
+        * Enum: `me`, `friends`, `following`, `all`
 
 * Request body
 
@@ -200,7 +170,7 @@ Gets all `Clips` for all `Users` for use in Discovery.
 
 * Description
 
-Gets a selected `Clip`.
+Gets a selected `Clip`. Might not be needed?
 
 * Path parameters
 
@@ -223,40 +193,6 @@ Gets a selected `Clip`.
    * `200 OK`
 
    * `404 Not Found`
-
-###  `GET /clips/friends-follows`
-
-* Description
-
-Gets all `Clips` for all `Users` the current `User` has a relationship with (either friends or follows).
-
-* Path parameters
-
-(None)
-
-* Query parameters
-
-    * `number` (number of clips to return)
-        
-        * Any positive integer (default is 24)
-    
-    * `index` (allows for getting less recent clips)
-        
-        * Any positive integer (default is 0)
-                
-    * If `number` and `index` form an invalid combination, default values are used
-
-* Request body
-
-(None)
-
-* Response body
-
-`Clip[]`
-
-* Response status
-
-`200 OK`
 
 ### `POST /clips`
 
