@@ -8,7 +8,7 @@
 
 ### Authentication
 
-All endpoints are secured by OAuth 2.0. Any requests not including an `Authorization` header with a valid `Bearer` token will result in a `401 Unauthorized` status.
+All endpoints are secured by OAuth 2.0, except for one that allows non-logged-in users to use the Discovery feature. Aside from this, any requests not including an `Authorization` header with a valid `Bearer` token will result in a `401 Unauthorized` status.
 
 ### Content Types
 
