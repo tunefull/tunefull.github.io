@@ -1,5 +1,3 @@
-![TuneFull](img/tunefull-logo.png)
-
 ## Client-side design and implementation
 
 ### Client functionality

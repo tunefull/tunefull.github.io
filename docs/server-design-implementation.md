@@ -1,5 +1,3 @@
-![TuneFull](img/tunefull-logo.png)
-
 ## Server-side design and implementation
 
 ### Server functionality 
