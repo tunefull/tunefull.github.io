@@ -24,6 +24,14 @@
 
 * [User Controller]()
 
+### Service Classes
+
+* [Clip Service]()
+
+* [Relationship Service]()
+
+* [User Service]()
+
 ### Data Definition Language (DDL)
 
 * [DDL](ddl.md)
