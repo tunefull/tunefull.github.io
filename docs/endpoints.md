@@ -279,7 +279,35 @@ Deletes a clip posted by the current user
 * Response status
 
     * `200 OK`
-        
+
+### `GET /relationships/{relationshipId}`
+ 
+* Description
+ 
+Gets a selected relationship
+ 
+* Path parameters
+ 
+`relationshipId` (relationship identifier)
+ 
+* Query parameters
+ 
+(None)
+ 
+* Request body
+ 
+(None)
+ 
+* Response body
+ 
+`Relationship`
+ 
+* Response status
+ 
+   * `200 OK`
+
+   * `404 Not Found`
+         
 ### `GET /relationships/friendships`
 
 * Description
