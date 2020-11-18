@@ -160,7 +160,7 @@ Deletes the current user's records.
 
 * Description
 
-Returns all `Clips`, controlled by parameters.
+Returns lists of `Clips`, controlled by parameters.
 
 * Path parameters
 
@@ -198,7 +198,7 @@ Returns all `Clips`, controlled by parameters.
 
 * Description
 
-Gets a selected `Clip`. Might not be needed?
+Gets a selected `Clip`.
 
 * Path parameters
 
@@ -230,7 +230,7 @@ Creates a new clip
 
 * Path parameters
 
-(None)
+`clipId` (clip identifier)
 
 * Query parameters
 
@@ -246,10 +246,36 @@ Creates a new clip
 
 * Response status
 
-    * `201 Created`
+    * `200 Created`
     
     * `400 Bad Request` (one or more invalid `Clip` properties--or an invalid combination of properties--in request)
-    
+
+### `DELETE /clips/`
+
+* Description
+
+Deletes a clip posted by the current user
+
+* Path parameters
+
+(None)
+
+* Query parameters
+
+(None)
+
+* Request body
+
+`Clip`
+
+* Response body
+
+(None)
+
+* Response status
+
+    * `200 OK`
+        
 ### `GET /relationships/friendships`
 
 * Description
