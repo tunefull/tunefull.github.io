@@ -8,6 +8,12 @@
 
 * [Relationship](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/model/entity/Relationship.java)
 
+### Repository interfaces
 
+* 
+
+### Data Definition Language (DDL)
+
+* [DDL](ddl.md)
 
 > [Return to previous page](index.md#data-model-implementation)
