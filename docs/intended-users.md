@@ -1,3 +1,5 @@
+![TuneFull](img/tunefull-logo.png)
+
 ## Intended users/user personas
 
 * People who like social media, except for its negativity.
