@@ -198,6 +198,40 @@ Returns lists of `Clips`, controlled by parameters.
 
 `200 OK`
 
+### `GET /clips/discovery`
+
+* Description
+
+Returns a list of `Clips` for use in the Discovery mode.
+
+* Path parameters
+
+(None)
+
+* Query parameters 
+
+    * `limit` (number of clips to return)
+        
+        * Any positive integer (default is 10)
+
+    * `offset` (allows for getting less recent clips)
+        
+        * Any positive integer (default is 0)
+        
+    * If `limit` and `offset` form an invalid combination, default values are used
+    
+* Request body
+
+(None)
+
+* Response body
+
+`Clip[]`
+
+* Response status
+
+`200 OK`
+
 ###  `GET /clips/{clipId}`
 
 * Description
