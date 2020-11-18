@@ -82,11 +82,15 @@ Returns all `User` profiles
 
 * Query parameters
 
-    * `number`
+    * `limit` (number of users to return)
+            
+        * Any positive integer (default is 10)
     
-        * Any positive integer
-        
-        * ALL (default)
+    * `offset` (allows for getting more users)
+            
+        * Any positive integer (default is 0)
+            
+    * If `limit` and `offset` form an invalid combination, default values are used
 
 * Request body
 
