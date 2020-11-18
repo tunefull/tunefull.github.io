@@ -1,5 +1,5 @@
 ## Data Definition Language (DDL)
-```
+```sql
 create sequence hibernate_sequence start with 1 increment by 1;
 create table clip
 (
@@ -48,3 +48,5 @@ alter table relationship
 [Download ddl.sql](sql/ddl.sql)
 
 [DDL on Github](https://github.com/tunefull/tunefull-service/blob/master/ddl.sql)
+
+> [Return to previous page](server-design-implementation.md)

@@ -1,6 +1,6 @@
 ## Data Model Implementation
 
-### Entity Classes
+### Entity classes
 
 * [Clip](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/model/entity/Clip.java)
 
@@ -16,7 +16,15 @@
 
 * [User Repository]()
 
-### REST Controllers 
+### Service classes
+
+* [Clip Service]()
+
+* [Relationship Service]()
+
+* [User Service]()
+
+### REST controllers 
 
 * [Clip Controller]()
 
@@ -24,10 +32,4 @@
 
 * [User Controller]()
 
-### Service Classes
-
-* [Clip Service]()
-
-* [Relationship Service]()
-
-* [User Service]()
+> [Return to previous page](server-design-implementation.md)

@@ -22,7 +22,7 @@
 
 * Frustrations:
 
-    * Fed up with the politics in social media
+    * Fed up with politics in social media
     
     * Technology is becoming too complex, most platforms have too much going on
 
@@ -60,7 +60,7 @@ I like to keep up with my friends on social media, but recently have become so b
 
 **Frequency of Use:** Every day.
 
-> [Return to previous page](../index.md#intended-users-and-user-personas)
+> [Return to previous page](../intended-users.md)
 
 
 

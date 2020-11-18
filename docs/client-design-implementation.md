@@ -2,9 +2,9 @@
 
 ### Client functionality
 
-### [Wireframe](wireframe.md)
+Once logged in, users are able to perform a variety of actions such as adding or deleting friends and follows. Users have access to a feed of recent clips posted by those on the network. Additionally, they can post 20 to 30 second sound bites of music which are added to their profile. Clicking on a clip allows the user to listen and discover information about the artist, song and album. Users who are not logged in can access this feature to some extent, but are not able to follow and friend other users or post their own music.
 
-Once logged in, users are able to perform a variety of actions such as adding or deleting friends and follows. Users have access to a feed of recent clips posted by those on the network. Additionally, they can post 20 to 30 second sound bites of music which are added to their profile. Just click on a clip to listen and discover information about the artist, song and album. Users who are not logged in can access this feature to some extent, but are not able to follow and friend other users, or post their own music. The app also includes settings such as color themes.
+### [Wireframe](wireframe.md)
 
 ### Device and external services used:
 
@@ -12,7 +12,7 @@ Once logged in, users are able to perform a variety of actions such as adding or
 
     * Audio is used to play the music clips on the client side of the app.
 
-    * Audio is critical to the functionality of the app.
+    * Audio is critical to meaningful functionality of the app.
 
 * Google Sign-in [(Documentation)](https://developers.google.com/identity/sign-in/android/start-integrating)
 
@@ -25,4 +25,5 @@ Once logged in, users are able to perform a variety of actions such as adding or
     * Spotify API enables clips to be played through the app, and allows for clips to redirect to the full song on Spotify. The server will likely also need access to Spotify. 
 
     * Access to Spotify API or some other music API is necessary for the functioning of this app.
-
+    
+> [Return to previous page](index.md)

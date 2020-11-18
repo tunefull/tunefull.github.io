@@ -58,7 +58,7 @@ As a music lover, I live to discover new music--but I’m a busy person, and don
 
 **Frequency of Use:** A few times every week.
 
-> [Return to previous page](../index.md#intended-users-and-user-personas)
+> [Return to previous page](../intended-users.md)
 
 
 
