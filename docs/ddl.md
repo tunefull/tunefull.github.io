@@ -45,8 +45,6 @@ alter table relationship
 alter table relationship
     add constraint FKh7jjvc6gwtqfy926k5hmgfj47 foreign key (requester_id) references user_profile;
 ```
-[DDL](sql/ddl.sql)
+[Download ddl.sql](sql/ddl.sql)
 
 [DDL on Github](https://github.com/tunefull/tunefull-service/blob/master/ddl.sql)
-
-> [Return to previous page](index.md#ddl)

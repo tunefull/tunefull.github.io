@@ -31,9 +31,3 @@
 * [Relationship Service]()
 
 * [User Service]()
-
-### Data Definition Language (DDL)
-
-* [DDL](ddl.md)
-
-> [Return to previous page](index.md#data-model-implementation)
