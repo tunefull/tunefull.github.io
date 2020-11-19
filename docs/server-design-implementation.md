@@ -8,4 +8,4 @@
 
 ### [JavaDocs](https://tunefull.github.io/tunefull-service/)
 
-> [Return to previous page](index.md)
+> [Return to previous page](index.md#server-side-design-and-implementation)

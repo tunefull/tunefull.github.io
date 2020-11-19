@@ -12,4 +12,4 @@
 
 	- [User Persona: Jackson Riley](personas/persona-2.md)
 
-> [Return to previous page](index.md)
+> [Return to previous page](index.md#intended-users-and-user-personas)
