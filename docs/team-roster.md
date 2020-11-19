@@ -10,6 +10,6 @@ I’m [Rod Frechette](https://rfrech.github.io/), a former restaurant manager, c
  
 ### Laura Steiner
 
-[Laura Steiner](https://lsteiner9.github.io/) is an aspiring Java developer and a professional violist, violinist, and music teacher. She recently graduated from UNM with a master’s degree in music, and is currently attending the Deep Dive Coding Java + Android Bootcamp, gaining experience in Android app development. 
+Hi! I'm [Laura Steiner](https://lsteiner9.github.io/), an aspiring Java developer and a professional violist, violinist, and music teacher. I recently graduated from UNM with a master’s degree in music, and am currently attending the Deep Dive Coding Java + Android Bootcamp, gaining experience in Android app development. 
 
 > [Return to previous page](index.md)
