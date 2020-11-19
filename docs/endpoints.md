@@ -475,3 +475,5 @@ boolean
     * `200 OK`
     
     * `400 Bad Request` (one or more invalid properties--or an invalid combination of properties--in request)
+
+> [Return to previous page](data-model-implementation.md)

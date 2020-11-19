@@ -34,5 +34,4 @@
 
 * [Relationship Controller](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/controller/RelationshipController.java)
 
-
 > [Return to previous page](server-design-implementation.md)
