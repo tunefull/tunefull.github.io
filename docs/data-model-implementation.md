@@ -24,8 +24,8 @@
 
 * [User Service]()
 
-### REST controllers 
-
+### REST controllers ([endpoint inventory](endpoints.md))
+                                         
 * [Clip Controller]()
 
 * [Relationship Controller]()

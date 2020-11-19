@@ -158,7 +158,7 @@ Deletes the current user's records.
 
     * `200 OK`
     
-    * `400 Bad Request` (empty request body or invalid genre)
+    * `400 Bad Request` (empty request body or invalid User)
 
 ### `GET /clips`
 
@@ -313,36 +313,8 @@ Deletes a clip posted by the current user
 * Response status
 
     * `200 OK`
-
-### `GET /relationships/{relationshipId}`
- 
-* Description
- 
-Gets a selected relationship
- 
-* Path parameters
- 
-`relationshipId` (relationship identifier)
- 
-* Query parameters
- 
-(None)
- 
-* Request body
- 
-(None)
- 
-* Response body
- 
-`Relationship`
- 
-* Response status
- 
-   * `200 OK`
-
-   * `404 Not Found`
          
-### `GET /relationships/friendships`
+### `GET /friendships`
 
 * Description
 
@@ -368,7 +340,7 @@ Gets the relationships in which the `User` is a friend
 
 `200 OK`
   
-### `GET relationships/follows`
+### `GET /follows`
 
 * Description
 
@@ -394,7 +366,7 @@ Gets the relationships in which the `User` is following another `User`
 
 `200 OK`
 
-### `GET relationships/unaccepted`
+### `GET /pending`
 
 * Description
 
@@ -420,11 +392,11 @@ Gets the relationships in which the `User` has received a friend request and has
 
 `200 OK`
 
-### `POST /relationships`
+### `POST /friendships`
 
 * Description
 
-Creates a relationship between two `Users`.
+Creates a relationship between two `Users` with a friend request.
 
 * Path parameters
 
@@ -436,7 +408,35 @@ Creates a relationship between two `Users`.
 
 * Request body
 
+`User`
+
+* Response body
+
 `Relationship`
+
+* Response status
+
+    * `201 Created`
+    
+    * `400 Bad Request` (one or more invalid properties--or an invalid combination of properties--in request)   
+
+### `POST /follows`
+
+* Description
+
+Allows a `User` to follow a different `User`.
+
+* Path parameters
+
+(None)
+
+* Query parameters
+
+(None)
+
+* Request body
+
+`User`
 
 * Response body
 
@@ -448,7 +448,7 @@ Creates a relationship between two `Users`.
     
     * `400 Bad Request` (one or more invalid properties--or an invalid combination of properties--in request)   
    
-### `PUT /relationships`
+### `PUT /friendships/{relationshipId}`
 
 * Description
 
@@ -456,7 +456,7 @@ Updates a relationship between two `Users` (i.e. a friend request has been accep
 
 * Path parameters
 
-(None)
+`relationshipId` (relationship identifier)
 
 * Query parameters
 
@@ -464,7 +464,7 @@ Updates a relationship between two `Users` (i.e. a friend request has been accep
 
 * Request body
 
-`Relationship`
+boolean
 
 * Response body
 
