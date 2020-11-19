@@ -156,7 +156,7 @@ Deletes the current user's records.
 
 * Response status
 
-    * `200 OK`
+    * `204 No Content`
     
     * `400 Bad Request` (empty request body or invalid User)
 
@@ -284,7 +284,7 @@ Creates a new clip
 
 * Response status
 
-    * `200 Created`
+    * `201 Created`
     
     * `400 Bad Request` (one or more invalid `Clip` properties--or an invalid combination of properties--in request)
 
@@ -312,7 +312,7 @@ Deletes a clip posted by the current user
 
 * Response status
 
-    * `200 OK`
+    * `204 No Content`
          
 ### `GET /friendships`
 
