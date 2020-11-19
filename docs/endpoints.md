@@ -288,7 +288,7 @@ Creates a new clip
     
     * `400 Bad Request` (one or more invalid `Clip` properties--or an invalid combination of properties--in request)
 
-### `DELETE /clips/`
+### `DELETE /clips`
 
 * Description
 
@@ -418,7 +418,7 @@ Creates a relationship between two `Users` with a friend request.
 
     * `201 Created`
     
-    * `400 Bad Request` (one or more invalid properties--or an invalid combination of properties--in request)   
+    * `404 Not Found` (The other user does not exist)   
 
 ### `POST /follows`
 
@@ -446,7 +446,7 @@ Allows a `User` to follow a different `User`.
 
     * `201 Created`
     
-    * `400 Bad Request` (one or more invalid properties--or an invalid combination of properties--in request)   
+    * `404 Not Found` (The other user does not exist)   
    
 ### `PUT /friendships/{relationshipId}`
 
@@ -474,6 +474,6 @@ boolean
 
     * `200 OK`
     
-    * `400 Bad Request` (one or more invalid properties--or an invalid combination of properties--in request)
+    * `404 Not Found` (The relationship does not exist)
 
 > [Return to previous page](data-model-implementation.md)
