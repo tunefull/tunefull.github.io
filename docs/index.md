@@ -23,3 +23,5 @@ The server of TuneFull runs, with OAuth 2.0 authentication on all intended endpo
 ## [Server-side design and implementation](server-design-implementation.md)
 
 ## [Client-side design and implementation](client-design-implementation.md)
+
+## [Authentication scheme](authentication.md)
