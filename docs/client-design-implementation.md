@@ -22,4 +22,4 @@
     
 ### [Wireframe](wireframe.md)
 
-> [Return to previous page](index.md)
+> [Return to previous page](index.md#client-side-design-and-implementation)
