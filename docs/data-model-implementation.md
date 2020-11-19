@@ -2,34 +2,37 @@
 
 ### Entity classes
 
+* [User](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/model/entity/User.java)
+
 * [Clip](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/model/entity/Clip.java)
 
 * [Relationship](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/model/entity/Relationship.java)
 
-* [User](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/model/entity/User.java)
-
 ### Repository interfaces
 
-* [Clip Repository]()
+* [User Repository](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/model/dao/UserRepository.java)
 
-* [Relationship Repository]()
+* [Clip Repository](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/model/dao/ClipRepository.java)
 
-* [User Repository]()
+* [Relationship Repository](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/model/dao/RelationshipRepository.java)
+
 
 ### Service classes
 
-* [Clip Service]()
+* [User Service](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/service/UserService.java)
 
-* [Relationship Service]()
+* [Clip Service](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/service/ClipService.java)
 
-* [User Service]()
+* [Relationship Service](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/service/RelationshipService.java)
+
 
 ### REST controllers ([endpoint inventory](endpoints.md))
                                          
-* [Clip Controller]()
+* [User Controller](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/controller/UserController.java)
 
-* [Relationship Controller]()
+* [Clip Controller](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/controller/ClipController.java)
 
-* [User Controller]()
+* [Relationship Controller](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/controller/RelationshipController.java)
+
 
 > [Return to previous page](server-design-implementation.md)
