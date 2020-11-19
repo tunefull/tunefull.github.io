@@ -10,4 +10,6 @@ The server hosts the database, and provides data to the client when requested. T
 
 ### [DDL](ddl.md)
 
+### [JavaDocs](https://tunefull.github.io/tunefull-service/)
+
 > [Return to previous page](index.md)
