@@ -14,7 +14,7 @@ Once logged in, users are able to perform a variety of actions such as adding or
 
 ## Current implementation state
 
-The server of TuneFull runs, with OAuth 2.0 authentication on all intended endpoints. It has endpoints to get all the information that is anticipated to be needed on the client-side. The client-side app is in early stages: the navigation scheme has been chosen and authentication has been set up. A successful roundtrip between client and server can be made.
+The server of TuneFull runs with OAuth 2.0 authentication on all intended endpoints. It has endpoints to get all the information that is anticipated to be needed on the client-side. The client-side app is in early stages: the navigation scheme has been chosen and authentication has been set up. Multiple successful round trips have been made between client and server. The server is currently unable to test certain endpoints, such as relationships.
 
 ## [Team Roster](team-roster.md)
 
