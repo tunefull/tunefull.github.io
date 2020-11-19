@@ -476,4 +476,4 @@ boolean
     
     * `404 Not Found` (The relationship does not exist)
 
-> [Return to previous page](data-model-implementation.md)
+> [Return to previous page](data-model-implementation.md#endpoint-inventory)
