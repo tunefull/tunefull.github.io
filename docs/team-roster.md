@@ -6,7 +6,7 @@ My name’s [Robert Dominguez](https://dominguez1st.github.io/) and I am current
 
 ### Rod Frechette
  
-I’m [Rod Frechette](https://rfrech.github.io/) a former restaurant manager, currently participating in Cohort 11’s Deep Dive Coding Java + Android bootcamp. My goal is to have the tools I need to develop my own apps upon graduating from the program.
+I’m [Rod Frechette](https://rfrech.github.io/), a former restaurant manager, currently participating in Cohort 11’s Deep Dive Coding Java + Android bootcamp. My goal is to have the tools I need to develop my own apps upon graduating from the program.
  
 ### Laura Steiner
 
