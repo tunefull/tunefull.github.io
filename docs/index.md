@@ -14,6 +14,8 @@ The server hosts the database, and provides data to the client when requested. T
 
 Once logged in, users are able to perform a variety of actions such as adding or deleting friends and follows. Users have access to a feed of recent clips posted by those on the network. Additionally, they can post 20 to 30 second sound bites of music which are added to their profile. Clicking on a clip allows the user to listen and discover information about the artist, song and album. Users who are not logged in can access this feature to some extent, but are not able to follow and friend other users or post their own music.
 
+## [PDF](pdf/tunefull.pdf)
+
 ## Current implementation state
 
 The server of TuneFull runs with OAuth 2.0 authentication on all intended endpoints. Endpoints are in use for the procurement of all necessary client-side information. The client-side app is in early stages: the navigation scheme has been chosen and authentication has been set up. Multiple successful round trips have been made between client and server. The server is currently unable to test certain endpoints, such as relationships. Certain other endpoints such as a single put and delete endpoint are not yet working.
