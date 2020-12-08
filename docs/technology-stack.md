@@ -50,3 +50,5 @@
 * Authentication
     * Google Sign In
     * [Spotify Sign In](https://developer.spotify.com/documentation/general/guides/authorization-guide/)
+    
+> [Return to previous page](index.md#outlines-of-technology-stacks)
