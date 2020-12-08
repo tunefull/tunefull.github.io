@@ -1,10 +1,10 @@
 ## Outline of Technology Stacks
 
-Back End:
+### Back End:
 
 * Ubuntu Linux OS
 * Apache HTTP server configured as reverse proxy
-* JRE 8
+* JRE 7
 * Apache Tomcat Java application server
 * Web service application, incorporating
     * Data model
@@ -20,11 +20,11 @@ Back End:
         * Jackson JSON
         * Custom View Classes & Interfaces
     * Authentication
-        * Spring Security
+        * [Spring Security](https://spring.io/projects/spring-security)
         * Google Sign In
-        * Spotify Sign In
+        * [Spotify Sign In](https://developer.spotify.com/documentation/general/guides/authorization-guide/)
         
-Front End:
+### Front End:
 
 * Android OS
 * Data model
@@ -49,4 +49,4 @@ Front End:
     * Custom activity and fragment classes
 * Authentication
     * Google Sign In
-    * Spotify Sign In
+    * [Spotify Sign In](https://developer.spotify.com/documentation/general/guides/authorization-guide/)
