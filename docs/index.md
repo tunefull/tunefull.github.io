@@ -24,6 +24,26 @@ The server of TuneFull runs with OAuth 2.0 authentication on all intended endpoi
 
 ## [Intended users and user personas](intended-users.md)
 
+## Instructions for Building
+
+1. Go to the [TuneFull GitHub repository](https://github.com/tunefull/tunefull)
+
+2. Click on Clone or download
+
+3. Make sure Clone with SSH is selected and click the clipboard icon to copy the SSH key
+
+4. Use the IntelliJ Check out from Version Control/Git (from the welcome screen) or File/New/Project from Version Control/Git (from the workspace) command to clone
+
+5. Once downloaded, build the project by clicking the green hammer icon or Build Project in Build Menu
+
+6. Once finished building, click the green arrow icon or Run app from Run menu
+
+7. Repeat Previous steps for [TuneFull Server](https://github.com/tunefull/tunefull-service)
+
+8. Run the Server side project so that a connection with endpoints can be established, then run the Application
+
+## Instructions for Using
+
 ## [Outlines of Technology Stacks](technology-stack.md)
 
 ## [Client-side design and implementation](client-design-implementation.md)
