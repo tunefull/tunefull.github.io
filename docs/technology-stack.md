@@ -22,7 +22,6 @@
     * Authentication
         * [Spring Security](https://spring.io/projects/spring-security)
         * [Google Sign In](https://developers.google.com/identity)
-        * [Spotify Sign In](https://developer.spotify.com/documentation/general/guides/authorization-guide/)
         
 ### Front End:
 
@@ -38,7 +37,7 @@
 * View
     * Custom RecyclerView.Adapter and RecyclerView.Holder classes
     * Custom Layouts
-    * Custom Dialogues
+    * Custom Dialogs
 * Controller
     * Custom activity and fragment classes
 * Authentication
