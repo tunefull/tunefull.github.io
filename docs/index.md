@@ -44,6 +44,23 @@ The server of TuneFull runs with OAuth 2.0 authentication on all intended endpoi
 
 ## Instructions for Using
 
+* Upon launching TuneFull will ask you to sign into Spotify, which can also be done with a Google Account
+
+* After signing in the user will accept a prompt requesting various permissions
+
+* The application will then take you to the Discover screen where you can begin to browse clips of music TuneFull users have posted
+
+* In the TuneFull Feed tab users can see music clips from all their friends and those they have followed
+
+* The far right tab is the User Profile where users may
+    * Set their genre mood
+    * See clips they have posted
+    * View friend request
+    * View a list of friends and followers
+    * Logout of the Application
+
+* There is also the ability to post a 30 second clip of music from any tab using the floating action button
+
 ## [Outlines of Technology Stacks](technology-stack.md)
 
 ## [Client-side design and implementation](client-design-implementation.md)
