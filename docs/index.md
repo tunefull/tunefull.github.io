@@ -31,3 +31,5 @@ Once logged in, users are able to perform a variety of actions such as adding or
 ## [Server-side design and implementation](server-design-implementation.md)
 
 ## [Authentication scheme](authentication.md)
+
+## [Copyright & License Information](notice.md)
