@@ -4,7 +4,7 @@
 
 * Ubuntu Linux OS
 * Apache HTTP server configured as reverse proxy
-* JRE 7
+* JRE 8
 * Apache Tomcat Java application server
 * Web service application, incorporating
     * Data model
@@ -21,19 +21,12 @@
         * Custom View Classes & Interfaces
     * Authentication
         * [Spring Security](https://spring.io/projects/spring-security)
-        * Google Sign In
+        * [Google Sign In](https://developers.google.com/identity)
         * [Spotify Sign In](https://developer.spotify.com/documentation/general/guides/authorization-guide/)
         
 ### Front End:
 
 * Android OS
-* Data model
-    * SQLite
-    * Room ORM
-    * Custom entity and other model classes
-    * Custom type converters
-    * Custom type converters
-    * Data access object (DAO) interfaces
 * Remote service interfaces
     * Retrofit
     * ReactiveX
@@ -45,10 +38,11 @@
 * View
     * Custom RecyclerView.Adapter and RecyclerView.Holder classes
     * Custom Layouts
+    * Custom Dialogues
 * Controller
     * Custom activity and fragment classes
 * Authentication
-    * Google Sign In
+    * [Google Sign In](https://developers.google.com/identity)
     * [Spotify Sign In](https://developer.spotify.com/documentation/general/guides/authorization-guide/)
     
 > [Return to previous page](index.md#outlines-of-technology-stacks)
