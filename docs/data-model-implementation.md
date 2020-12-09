@@ -36,6 +36,5 @@
 
 * [Error Configuration](https://github.com/tunefull/tunefull-service/blob/master/src/main/java/edu/cnm/deepdive/tunefull/configuration/ErrorConfiguration.java) (Contains methods that translate HTTP error codes)
 
-### [Endpoint inventory](endpoints.md)
 
 > [Return to previous page](server-design-implementation.md)

@@ -4,6 +4,8 @@
 
 ### [Data Model Implementation](data-model-implementation.md)
 
+### [Endpoint inventory](endpoints.md)
+
 ### [DDL](ddl.md)
 
 ### [JavaDocs](https://tunefull.github.io/tunefull-service/)

@@ -35,3 +35,5 @@
     * Logout of the Application
 
 * There is also the ability to post a 30 second clip of music from any tab using the floating action button
+
+> [Return to previous page](index.md#instructions-for-building-and-using)
