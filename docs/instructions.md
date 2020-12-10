@@ -2,17 +2,17 @@
 
 ### Instructions for Building
 
-1. Go to the [TuneFull GitHub repository](https://github.com/tunefull/tunefull)
+1. Go to the [TuneFull GitHub repository](https://github.com/tunefull/tunefull).
 
-2. Click on Clone or download
+2. Click on Clone or download.
 
-3. Make sure Clone with SSH is selected and click the clipboard icon to copy the SSH key
+3. Make sure Clone with SSH is selected and click the clipboard icon to copy the SSH key.
 
-4. Use the IntelliJ Check out from Version Control/Git (from the welcome screen) or File/New/Project from Version Control/Git (from the workspace) command to clone
+4. Use the IntelliJ Check out from Version Control/Git (from the welcome screen) or File/New/Project from Version Control/Git (from the workspace) command to clone.
 
-5. Once downloaded, build the project by clicking the green hammer icon or Build Project in Build Menu
+5. Once downloaded, build the project by clicking the green hammer icon or Build Project in Build Menu.
 
-6. If desired, repeat Previous steps to run the [TuneFull Server](https://github.com/tunefull/tunefull-service) locally. The server is currently running in the cloud as well.
+6. If desired, repeat Previous steps to download and run the [TuneFull Server](https://github.com/tunefull/tunefull-service) locally. The server is currently running in the cloud as well.
 
 7. Make sure tunefullproperties.properties is configured to direct to either your local server or to the cloud. This file should be stored in a services directory in this location: (projectDir/../../../services/tunefullproperties.properties).  
 
@@ -39,6 +39,6 @@
     * View a friend request
     * View a list of friends
     * View a list of follows
-    * Logout for Google sign-in
+    * Logout with Google sign-in
 
 > [Return to previous page](index.md#instructions-for-building-and-using)
