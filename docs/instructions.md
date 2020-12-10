@@ -16,7 +16,9 @@
 
 7. Make sure tunefullproperties.properties is configured to direct to either your local server or to the cloud. This file should be stored in a services directory in this location: (projectDir/../../../services/tunefullproperties.properties).  
 
-8. Once finished building, run the Server side project if desired so that a connection with endpoints can be established, then run the Client Application by clicking the green arrow icon or Run app from Run menu
+8. Once finished building, run the Server side project if desired so that a connection with endpoints can be established, then run the Client Application by clicking the green arrow icon or Run app from Run menu.
+
+9. IMPORTANT: the app will not function properly if you do not have the Spotify app installed. You log in to the Spotify app as well as to the TuneFull app.
 
 ### Instructions for Using
 
