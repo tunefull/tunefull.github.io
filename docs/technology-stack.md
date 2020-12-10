@@ -30,16 +30,16 @@
     * Retrofit
     * ReactiveX
     * Gson
-    * Custom serializer/deserializers
 * View Model Components
     * Android Lifecycle framework (ViewModel & LiveData)
     * Custom View Model Classes
 * View
-    * Custom RecyclerView.Adapter and RecyclerView.Holder classes
+    * Custom `RecyclerView.Adapter` and `RecyclerView.Holder` classes
     * Custom Layouts
     * Custom Dialogs
+    * Custom Drawables and Vector Assets
 * Controller
-    * Custom activity and fragment classes
+    * Custom activity, fragment, dialog classes
 * Authentication
     * [Google Sign In](https://developers.google.com/identity)
     * [Spotify Sign In](https://developer.spotify.com/documentation/general/guides/authorization-guide/)

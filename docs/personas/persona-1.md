@@ -50,11 +50,9 @@ I like to keep up with my friends on social media, but recently have become so b
     
    * She then logs in her credentials from the home page.
     
-   * She clicks on her feed to see what her friends are posting.
+   * She clicks on her TuneFull feed to see what her friends are posting.
     
-   * Upon clicking a music clip posted by her neighbor she is presented with the song title, artist, and album.
-    
-   * She enjoys the sweet sounds of Duke Ellington for 30 seconds.
+   * Upon clicking a music clip posted by her neighbor she enjoys the sweet sounds of Duke Ellington for 30 seconds.
     
    * After listening to an embedded sound bite she has a new appreciation for jazz and promptly texts her neighbor.
 

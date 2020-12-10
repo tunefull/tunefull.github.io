@@ -48,13 +48,13 @@ As a music lover, I *live* to discover new music--but I’m a busy person, and d
 
    * Jackson opens TuneFull. 
    
-   * He skips the log-in process and goes straight to the Discover feature.
+   * He logs in and is immediately presented with the Discover feature.
    
    * After entering Discover, he is faced with a plethora of new music to choose from.
    
    * After listening to a couple of recently-posted clips, he finds one he really enjoys.
    
-   * He follows the link to the Spotify app, and adds all the artist's songs to his after-work playlist.
+   * He looks up the artist on the Spotify app, and adds all the artist's songs to his after-work playlist.
 
 **Frequency of Use:** A few times every week.
 
