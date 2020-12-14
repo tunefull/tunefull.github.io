@@ -18,7 +18,7 @@ I’m Rod Frechette, a former restaurant manager, currently participating in Coh
 
 ### Laura Steiner - Team Leader
 
-Hi! I'm Laura Steiner, an aspiring Java developer and a professional violist, violinist, and music teacher. I recently graduated from UNM with a master’s degree in music, and am currently attending the Deep Dive Coding Java + Android Bootcamp, gaining experience in Android app development. 
+Hi! I'm Laura Steiner, a Java developer and professional violist, violinist, and music teacher. In 2020, I graduated from UNM with a master’s degree in music. Most recently, I graduated from the Deep Dive Coding Java + Android Bootcamp, gaining experience in Android app development. 
 
 * [Website](https://lsteiner9.github.io/)
 
